@@ -80,4 +80,8 @@
   .profile img {
     width: 12%;
   }
+
+  ::placeholder {
+  font-size: 0.8em;
+}
 }
