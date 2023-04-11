@@ -64,7 +64,20 @@
 }
 
 @media screen and (max-width: 720px) {
+  .container {
+    width: 90%;
+  }
+  .profileContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+  }
+
   .profile {
-    width: 100%;
+    padding: 5px;
+  }
+
+  .profile img {
+    width: 12%;
   }
 }
