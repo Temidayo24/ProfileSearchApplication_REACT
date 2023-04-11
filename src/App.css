@@ -67,6 +67,7 @@
 @media screen and (max-width: 720px) {
   .container {
     width: 95%;
+    margin: 1em auto;
   }
   .profileContainer {
     display: flex;
@@ -83,7 +84,8 @@
   }
 
   .profileSearchBar input {
-  font-size: 0.8em;
+  font-size: 1em;
+  height: 40px;
 }
 
   ::placeholder {
