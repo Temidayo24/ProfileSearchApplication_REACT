@@ -25,6 +25,7 @@
   border: 0;
   border-radius: 5px;
   outline: 0;
+  font-size: 1.1em;
 }
 
 .profileSearchBar input:focus {
@@ -65,7 +66,7 @@
 
 @media screen and (max-width: 720px) {
   .container {
-    width: 90%;
+    width: 95%;
   }
   .profileContainer {
     display: flex;
@@ -80,6 +81,10 @@
   .profile img {
     width: 12%;
   }
+
+  .profileSearchBar input {
+  font-size: 0.8em;
+}
 
   ::placeholder {
   font-size: 0.8em;
